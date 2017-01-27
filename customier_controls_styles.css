@@ -1,0 +1,16 @@
+/**
+ * Additional adjustmnets for el_customizer_repeatable_sections dynamic functionality
+ */
+
+.content-repeater-section{
+	
+}
+.content-repeater-section .field-section{
+	background: #fff;
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 10px;
+}
+.content-repeater-section .field-wrap{
+	margin-bottom: 10px;
+}

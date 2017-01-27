@@ -20,12 +20,16 @@ function el_customizer_functionality( $wp_customize ){
 	//Try new control
 	$control_args = array(
 		array(
-			'field_id'	=> 'title',
-			'type'		=> 'text'
+			'field_id'			=> 'title',
+			'field_label'		=> 'Header Title',
+			'field_type'		=> 'text',
+			'field_control_id'	=> 'el_content_section'
 		),
 		array(
-			'field_id'	=> 'content',
-			'type'		=> 'text'
+			'field_id'			=> 'content',
+			'field_label'		=> 'Main Content',
+			'field_type'		=> 'text',
+			'field_control_id'	=> 'el_content_section'
 		),
 	);
 	
@@ -41,6 +45,5 @@ function el_customizer_functionality( $wp_customize ){
 			)
 		)
 	);
-	
 }
 add_action('customize_register', 'el_customizer_functionality', 15);
