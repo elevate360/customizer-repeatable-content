@@ -1,6 +1,9 @@
 jQuery(document).ready(function($){
 	
 	
+	/**
+	 *Set up the main functionality for the content section 
+	 */
 	function set_up_functionality(){
 
 		//Functionality for customizer control
@@ -103,9 +106,7 @@ jQuery(document).ready(function($){
 		
 		//Deleting a block!
 		$('body').on('click','.remove-section', function(){
-			
-			var field_section = $(this).parents('.field-section').remove();
-			
+			var field_section = $(this).parents('.field-section').remove();	
 		});
 		
 		//set up sortables
